@@ -161,6 +161,87 @@ html, body, #menu{
 .title_container{
     text-align: center;
 }
+/*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+/*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+#index{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    /*border: 2px solid black;*/
+    box-shadow: 0px 0px 10px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+.index_button{
+    color: black;
+    background-color: rgba(256, 256, 256, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    width: 250px;
+}
+#bluelove_button{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid cyan;
+    box-shadow: 0px 0px 10px 2px deeppink;
+    color: white;
+    text-shadow: 0px 0px 5px cyan;
+    z-index: 3;
+}
+#botellas_button{
+    background: linear-gradient(90deg, chartreuse 0%, cyan 100%);
+    color: black;
+}
+#mariscos_button{
+    background: linear-gradient(90deg, crimson 0%, rgb(110, 110, 110) 80%);
+    color: black;
+    text-shadow: 0px 0px 10px crimson;
+}
+#gonzalitas_button{
+    background-color: #FF4E28;
+    background: linear-gradient(90deg, #FF4E28 0%, #1a1a1a 80%);
+    color: black;
+    text-shadow: 0px 0px 10px #FF4E28;
+}
+#moskalti_button{
+    background: linear-gradient(90deg, rgb(255, 243, 72) 0%, black 80%);
+    color: black;
+    text-shadow: 0px 0px 5px rgb(255, 243, 72);
+}
+/*
+#vino_button{
+    background: linear-gradient(90deg, #eca4b4 0%, #6a2c3c 80%);
+}
+*/
+/*
+#mojitos_button{
+    background: linear-gradient(90deg, #99a806 0%, #a64b18 80%);
+}
+*/
+#chamoyadas_button{
+    background: linear-gradient(90deg, #f0b43b 0%, #c73c0b 80%);
+}
+#margaritas_button{
+    background: linear-gradient(90deg, #e1100d 0%, #48110e 80%);
+    color: white;
+}
+#topping_button{
+    background-color: black;
+    color: chartreuse;
+}
+/*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+/*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 /* END MENU HEADER */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
@@ -455,7 +536,7 @@ html, body, #menu{
     padding-bottom: 1.5rem;
 }
 .alone{
-    width: 50%;
+    width: 40%;
     display: block;
     position: relative;
     top: 50%;
@@ -481,6 +562,23 @@ html, body, #menu{
     padding-bottom: 1.5rem;
 }
 /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+.p_images5{
+    grid-area: p_images;
+    /*(p1 to p15) PRODUCT IMAGES*/
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "i1";
+    /*☣☣☣*/
+    background-color: #e5e5e5;
+    border-radius: 2rem;
+    border: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+/*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 .i1{grid-area: i1;}
 .i2{grid-area: i2;}
 .i3{grid-area: i3;}
@@ -488,6 +586,16 @@ html, body, #menu{
 /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 .image_common{
     width: 100%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0px 0px 5px black);
+}
+/*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+.image_common2{
+    width: 50%;
     display: block;
     position: relative;
     top: 50%;
@@ -605,6 +713,30 @@ table, tr, td{
     font-size: 0.8rem;
     color: #424242;
 }
+.mxn3{
+    border-radius: 1rem;
+    background-color: cyan;
+    color: black;
+    font-weight: 600;
+}
+.mxn4{
+    border-radius: 1rem;
+    background-color: chartreuse;
+    color: black;
+    font-weight: 600;
+}
+.mxn5{
+    border-radius: 1rem;
+    background-color: #FF4E28;
+    color: black;
+    font-weight: 600;
+}
+.mxn6{
+    border-radius: 1rem;
+    background-color: crimson;
+    color: black;
+    font-weight: 600;
+}
 .mxn_moskalti{
     border-radius: 1rem;
     background-color: black;
@@ -647,8 +779,9 @@ table, tr, td{
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "pb_header pb_header"
-    "botellas1 botellas2"
-    "botellas1 botellas3";
+    "botellas1 botellas5"
+    "botellas1 botellas4"
+    "botellas3 botellas2";
 }
 .p_data_botellas{
     background-color: rgba(255, 255, 255, 0.1);
@@ -675,6 +808,14 @@ table, tr, td{
     /*Salsas*/
     grid-area: botellas3;
 }
+#botellas4{
+    /*Ron*/
+    grid-area: botellas4;
+}
+#botellas5{
+    /*Brandy*/
+    grid-area: botellas5;
+}
 .botellas_h1{
     border-radius: 1rem;
     border: white solid 3px;
@@ -690,9 +831,20 @@ table, tr, td{
     margin-right: auto;
 }
 .price_botellas{
-    font-weight: 900;
+    font-weight: 600;
     font-size: 0.8rem;
     color: chartreuse;
+}
+.ml{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: cyan;
+}
+.fit{
+    width: 75px;
+}
+.fit0{
+    width: 50px;
 }
 /* END BOTELLAS */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
@@ -788,9 +940,9 @@ table, tr, td{
     margin-right: auto;
 }
 .price_gonzalitas{
-    font-weight: 900;
+    font-weight: 600;
     font-size: 0.8rem;
-    color: #ff7011;
+    color: #FF4E28;
 }
 .p_images_gonzalitas{
     grid-area: p_images_gonzalitas;
@@ -1493,7 +1645,9 @@ a{
         "pb_header"
         "botellas1"
         "botellas2"
-        "botellas3";
+        "botellas3"
+        "botellas4"
+        "botellas5";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 }
@@ -1773,7 +1927,9 @@ a{
         "pb_header"
         "botellas1"
         "botellas2"
-        "botellas3";
+        "botellas3"
+        "botellas4"
+        "botellas5";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 }
@@ -1816,3 +1972,5 @@ a{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
+
+
