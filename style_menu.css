@@ -1973,11 +1973,11 @@ a{
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    padding-top: 1rem;
+    padding-top: 20px;
 }
 #myBtn:hover {
     background-color: rgba(212, 0, 35, 0.5); /* Set a background color */
-    color: white; /* Text color */
+    color: black; /* Text color hover */
 }
 /* END TOP BUTTON */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
