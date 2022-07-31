@@ -1958,8 +1958,8 @@ a{
     z-index: 100; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: rgba(212, 0, 35, 0.5); /* Set a background color */
-    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.9); /* Add a dark-grey background on hover */
+    color: chartreuse;
     cursor: pointer; /* Add a mouse pointer on hover */
     width: 50px;
     height: 50px;
@@ -1976,8 +1976,8 @@ a{
     padding-top: 1rem;
 }
 #myBtn:hover {
-    background-color: rgba(0, 0, 0, 0.9); /* Add a dark-grey background on hover */
-    color: chartreuse;
+    background-color: rgba(212, 0, 35, 0.5); /* Set a background color */
+    color: white; /* Text color */
 }
 /* END TOP BUTTON */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
