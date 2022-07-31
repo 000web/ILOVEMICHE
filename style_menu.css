@@ -175,6 +175,16 @@ html, body, #menu{
     border-radius: 1rem;
     /*border: 2px solid black;*/
     box-shadow: 0px 0px 10px 5px black;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-areas:
+    "indexs1 indexs2";
+}
+#indexs1{grid-area: indexs1;}
+#indexs2{grid-area: indexs2;}
+.index_subarea{
     display: flex;
     flex-direction: column;
 }
@@ -189,7 +199,7 @@ html, body, #menu{
     text-decoration: none;
     border-radius: 0.5rem;
     font-weight: 600;
-    width: 250px;
+    width: 260px;
 }
 #bluelove_button{
     background-color: rgba(0, 0, 0, 0.1);
@@ -1650,6 +1660,16 @@ a{
         "botellas5";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+    #index{
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-areas:
+        "indexs1 indexs2";
+    }
+    .index_button{
+        width: 230px;
+    }
+    /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 }
 @media only screen and (max-width: 550px){
     /*Phone Vertical*/
@@ -1930,6 +1950,14 @@ a{
         "botellas3"
         "botellas4"
         "botellas5";
+    }
+    /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+    #index{
+        display: grid;
+        grid-gap: 0rem;
+        grid-template-areas:
+        "indexs1"
+        "indexs2";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 }
