@@ -28,6 +28,12 @@ html{
     background: url("images/wood.jpg") no-repeat center center fixed;
     background-size: cover;
 }
+button:visited{
+    text-decoration: none;
+}
+button::after{
+    text-decoration: none;
+}
 #webpage{
     display: grid;
     grid-gap: 5rem;
