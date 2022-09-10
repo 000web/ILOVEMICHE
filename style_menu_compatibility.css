@@ -2975,6 +2975,21 @@ a{
     #menu{
         grid-gap: 5rem;
     }
+    #temporada{
+        background-image: url("images/sirena4.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: -ms-grid;
+        display: grid;
+        grid-gap: 0.5rem;
+        -ms-grid-columns: 0.5fr 0.5rem 1fr;
+        grid-template-columns: 0.5fr 1fr;
+        -ms-grid-rows: auto 0.5rem auto;
+            grid-template-areas:
+        "tmp2 tmp1"
+        "tmp3 tmp3";
+    }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
     #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13{
         display: -ms-grid;
