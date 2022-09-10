@@ -204,6 +204,17 @@ html, body, #menu{
     width: 100%;
     text-align: left;
 }
+/*
+.tmp3_1_sub{
+
+}
+*/
+.tmp3_2_sub, .tmp3_3_sub, .tmp3_4_sub{
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+
 #tmp3_1{
     width: 100%;
     padding: 1rem;
