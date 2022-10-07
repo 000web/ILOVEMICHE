@@ -58,7 +58,7 @@ html, body, #menu{
         -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto;
             grid-template-areas:
     "header"
-    
+    "temporada2" /*HALLOWEEN*/
     "p1"  /*CERVEZA*/                                    /*☢☢☢*/
     "p2"  /*MOJITOS*/
     "p3"  /*PIÑA COLADA*/
