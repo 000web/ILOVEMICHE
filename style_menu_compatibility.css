@@ -92,6 +92,7 @@ html, body, #menu{
     font-family: 'Poppins', sans-serif;
     width: 100%; /* It is displayed over the whole width, always that html, body and this section have 0 margin */
 }
+#temporada2{grid-area: temporada2;}
 #temporada{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada;}
 #header{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: header;}
 #p1{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: p1;}                                       /*☢☢☢*/
@@ -125,6 +126,70 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
+
+#temporada2{
+    /*background-image: url("images/temp2.jpeg");*/
+    background-color: black;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -ms-grid;
+    display: grid;
+    padding-top: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "hwt hwt"
+    "tp1 tp2";
+    padding-bottom: 3rem;
+}
+#hwt{
+    grid-area: hwt;
+}
+#hwb{
+    width: 100%;
+}
+#tp1{
+    grid-area: tp1;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+#tp2{
+    grid-area: tp2;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+.hw_title{
+    font-family: 'Piedra', cursive;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.3rem;
+}
+.hwsub{
+    font-family: 'Piedra', cursive;
+    color: orangered;
+    letter-spacing: 0.3rem;
+}
+.ct{
+    text-align: center;
+}
+.hwsm{
+    color: white;
+    font-family: 'Pangolin', cursive;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+.hwim{
+    padding-bottom: 3rem;
+}
+
+
+
+
+
 
 
 
@@ -2114,6 +2179,14 @@ a{
         grid-gap: 3rem;
     }
 
+    #temporada2{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "hwt"
+        "tp1"
+        "tp2";
+    }
+
     #temporada{
         background-image: url("images/sirena3.jpg");
         background-position: center center;
@@ -2976,6 +3049,15 @@ a{
     #menu{
         grid-gap: 5rem;
     }
+
+    #temporada2{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "hwt"
+        "tp1"
+        "tp2";
+    }
+
     #temporada{
         background-image: url("images/sirena4.jpg");
         background-position: center center;
