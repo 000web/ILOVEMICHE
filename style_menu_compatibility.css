@@ -58,7 +58,7 @@ html, body, #menu{
         -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto;
             grid-template-areas:
     "header"
-    "temporada" /*BEBIDA DE TEMPORADA - CAMBIA CONSTANTEMENTE*/
+    
     "p1"  /*CERVEZA*/                                    /*☢☢☢*/
     "p2"  /*MOJITOS*/
     "p3"  /*PIÑA COLADA*/
@@ -69,6 +69,7 @@ html, body, #menu{
     "p8"  /*CUBA*/
     "p9"  /*PALOMA*/
     "p10" /*BLUE LOVE*/
+    "temporada" /*BEBIDA DE TEMPORADA - CAMBIA CONSTANTEMENTE*/
     "p11" /*CARIBEÑAS*/
     "pw"  /*WHISKY*/
     "p12" /*CARAJILLOS*/
