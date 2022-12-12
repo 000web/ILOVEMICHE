@@ -66,6 +66,7 @@ html, body, #menu{
                 grid-template-areas:
     "header"
     /*"temporada2"*/ /*HALLOWEEN*/
+    "navidad2022"
     "p1"  /*CERVEZA*/                                    /*☢☢☢*/
     "p2"  /*MOJITOS*/
     "p3"  /*PIÑA COLADA*/
@@ -99,8 +100,11 @@ html, body, #menu{
     font-family: 'Poppins', sans-serif;
     width: 100%; /* It is displayed over the whole width, always that html, body and this section have 0 margin */
 }
+
+#navidad2022{grid-area: navidad2022;}
 #temporada2{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada2;}
 #temporada{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada;}
+
 #header{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: header;}
 #p1{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: p1;}                                       /*☢☢☢*/
 #p2{-ms-grid-row: 5;-ms-grid-column: 1;grid-area: p2;}
@@ -133,6 +137,53 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
+
+
+#navidad2022{
+    background-image: url("images/navidad22f.jpeg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "n2 n3";
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#n2{
+    grid-area: n2;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+
+#n3{
+    grid-area: n3;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+}
+
+
+.n2i{
+    display: block;
+    width: auto;
+    filter: drop-shadow(50px 50px 100px black);
+}
+
+
+.n3i{
+    display: block;
+    width: 50%;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+
+
 
 #temporada2{
     /*background-image: url("images/temp2.jpeg");*/
@@ -2205,6 +2256,18 @@ a{
         grid-gap: 3rem;
     }
 
+    #navidad2022{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "n2 n3";
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .n3i{
+        width: 70%;
+    }
+
+
     #temporada2{
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -3076,6 +3139,35 @@ a{
     #menu{
         grid-gap: 5rem;
     }
+
+
+    #navidad2022{
+        grid-template-columns: 1.5fr 1fr;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    #n2{
+        grid-area: n2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #n3{
+        grid-area: n3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .n2i{
+        width: 100%;
+    }
+    .n3i{
+        width: 100%;
+    }
+
 
     #temporada2{
         -ms-grid-columns: 1fr;
