@@ -1176,7 +1176,8 @@ table, tr, td{
     "gonzalitas_logo gonzalitas_logo"
     "gonzalitas_servicio gonzalitas_servicio"
     "gonzalitas1 gonzalitas2"
-    "gonzalitas3 gonzalitas4"
+    "gonzalitas6 gonzalitas3"
+    "gonzalitas4"
     "p_images_gonzalitas p_images_gonzalitas";
 }
 #gonzalitas1{
@@ -1202,6 +1203,10 @@ table, tr, td{
     -ms-grid-column: 3;
     /*Aderezo y Alita Extra*/
     grid-area: gonzalitas4;
+}
+#gonzalitas6{
+    /*Costillas*/
+    grid-area: gonzalitas6;
 }
 #gonzalitas_logo{
     -ms-grid-row: 1;

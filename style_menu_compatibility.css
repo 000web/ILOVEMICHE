@@ -1048,67 +1048,12 @@ html, body, #menu{
     -ms-grid-column: 1;
 }
 /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
-.i1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: i1;}
-.p_images > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images3 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images4 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images5 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images_gonzalitas > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_1 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.i2{-ms-grid-row: 1;-ms-grid-column: 3;grid-area: i2;}
-.p_images > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images3 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images4 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images_gonzalitas > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-#p_images_moskalti_1 > .i2{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;}
-.i3{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: i3;}
-.p_images3 > .i3{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;}
-.p_images_gonzalitas > .i3{
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 1;}
-#p_images_moskalti_1 > .i3{
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;}
-.i4{-ms-grid-row: 3;-ms-grid-column: 3;grid-area: i4;}
-.p_images_gonzalitas > .i4{
-    -ms-grid-row: 1;
-    -ms-grid-column: 7;}
-#p_images_moskalti_1 > .i4{
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;}
+.i1{grid-area: i1;}
+.i2{grid-area: i2;}
+.i3{grid-area: i3;}
+.i4{grid-area: i4;}
+.i5{grid-area: i5;}
+.i6{grid-area: i6;}
 /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 .image_common{
     width: 100%;
@@ -1438,7 +1383,8 @@ table, tr, td{
     "gonzalitas_logo gonzalitas_logo"
     "gonzalitas_servicio gonzalitas_servicio"
     "gonzalitas1 gonzalitas2"
-    "gonzalitas3 gonzalitas4"
+    "gonzalitas6 gonzalitas3"
+    "gonzalitas4 gonzalitasx"
     "p_images_gonzalitas p_images_gonzalitas";
 }
 #gonzalitas1{
@@ -1464,6 +1410,14 @@ table, tr, td{
     -ms-grid-column: 3;
     /*Aderezo y Alita Extra*/
     grid-area: gonzalitas4;
+}
+#gonzalitas6{
+    /*Costillas*/
+    grid-area: gonzalitas6;
+}
+#gonzalitasx{
+    /*div VACIO*/
+    grid-area: gonzalitasx;
 }
 #gonzalitas_logo{
     -ms-grid-row: 1;
@@ -1531,20 +1485,14 @@ table, tr, td{
     color: #FF4E28;
 }
 .p_images_gonzalitas{
-    -ms-grid-row: 9;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
     grid-area: p_images_gonzalitas;
     background-color: rgba(255, 255, 255, 0.1);
-    display: -ms-grid;
     display: grid;
     grid-gap: 0rem;
-    -ms-grid-columns: 1fr 0rem 1fr 0rem 1fr 0rem 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-                grid-template-areas:
-    "i1 i2 i3 i4";
+    grid-template-areas:
+    "i1 i2 i3 i4 i5 i6";
     /*☣☣☣*/
     border-radius: 2rem;
     border: none;
@@ -1553,7 +1501,7 @@ table, tr, td{
     margin-bottom: 2rem;
 }
 .image_gonzalitas{
-    width: 70%;
+    width: 85%;
     display: block;
     position: relative;
     top: 50%;
@@ -1566,67 +1514,12 @@ table, tr, td{
             clip-path: circle();
     background-color: rgba(255, 255, 255, 0.1);
 }
-.i1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: i1;}
-.p_images > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images3 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images4 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images5 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images_gonzalitas > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_1 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.i2{-ms-grid-row: 1;-ms-grid-column: 3;grid-area: i2;}
-.p_images > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images3 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images4 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images_gonzalitas > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-#p_images_moskalti_1 > .i2{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;}
-.i3{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: i3;}
-.p_images3 > .i3{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;}
-.p_images_gonzalitas > .i3{
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 1;}
-#p_images_moskalti_1 > .i3{
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;}
-.i4{-ms-grid-row: 3;-ms-grid-column: 3;grid-area: i4;}
-.p_images_gonzalitas > .i4{
-    -ms-grid-row: 1;
-    -ms-grid-column: 7;}
-#p_images_moskalti_1 > .i4{
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;}
+.i1{grid-area: i1;}
+.i2{grid-area: i2;}
+.i3{grid-area: i3;}
+.i4{grid-area: i4;}
+.i5{grid-area: i5;}
+.i6{grid-area: i6;}
 /* END GONZALITAS */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
@@ -1752,67 +1645,11 @@ table, tr, td{
             transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.1);
 }
-.i1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: i1;}
-.p_images > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images3 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images4 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images5 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images_gonzalitas > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_1 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.i2{-ms-grid-row: 1;-ms-grid-column: 3;grid-area: i2;}
-.p_images > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images3 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images4 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images_gonzalitas > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-#p_images_moskalti_1 > .i2{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;}
-.i3{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: i3;}
-.p_images3 > .i3{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;}
-.p_images_gonzalitas > .i3{
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 1;}
-#p_images_moskalti_1 > .i3{
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;}
-.i4{-ms-grid-row: 3;-ms-grid-column: 3;grid-area: i4;}
-.p_images_gonzalitas > .i4{
-    -ms-grid-row: 1;
-    -ms-grid-column: 7;}
-#p_images_moskalti_1 > .i4{
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;}
+.i1{grid-area: i1;}
+.i2{grid-area: i2;}
+.i3{grid-area: i3;}
+.i4{grid-area: i4;}
+
 #p_images_moskalti_2{
     -ms-grid-row: 5;
     -ms-grid-column: 5;
@@ -1850,67 +1687,11 @@ table, tr, td{
             transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.1);
 }
-.i1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: i1;}
-.p_images > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images3 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images4 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images5 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.p_images_gonzalitas > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_1 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-#p_images_moskalti_2 > .i1{
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;}
-.i2{-ms-grid-row: 1;-ms-grid-column: 3;grid-area: i2;}
-.p_images > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images3 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images4 > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-.p_images_gonzalitas > .i2{
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;}
-#p_images_moskalti_1 > .i2{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;}
-.i3{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: i3;}
-.p_images3 > .i3{
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;}
-.p_images_gonzalitas > .i3{
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 1;}
-#p_images_moskalti_1 > .i3{
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;}
-.i4{-ms-grid-row: 3;-ms-grid-column: 3;grid-area: i4;}
-.p_images_gonzalitas > .i4{
-    -ms-grid-row: 1;
-    -ms-grid-column: 7;}
-#p_images_moskalti_1 > .i4{
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;}
+.i1{grid-area: i1;}
+.i2{grid-area: i2;}
+.i3{grid-area: i3;}
+.i4{grid-area: i4;}
+
 #p_data_moskalti_2{
     -ms-grid-row: 7;
     -ms-grid-column: 5;
@@ -2471,31 +2252,25 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
-        -ms-grid-columns: 2fr 0.5rem 1fr;
         grid-template-columns: 2fr 1fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+        grid-template-areas:
         "gonzalitas_logo gonzalitas_logo"
         "gonzalitas_servicio gonzalitas_servicio"
         "gonzalitas1 gonzalitas3"
+        "gonzalitas6 gonzalitasx"
         "gonzalitas2 gonzalitas4"
         "p_images_gonzalitas p_images_gonzalitas";
     }
     .p_images_gonzalitas{
-        -ms-grid-row: 9;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 3;
         grid-area: p_images_gonzalitas;
         background-color: rgba(255, 255, 255, 0.1);
-        display: -ms-grid;
         display: grid;
         grid-gap: 0rem;
-        -ms-grid-columns: 1fr 0rem 1fr 0rem 1fr 0rem 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-                    grid-template-areas:
-        "i1 i2 i3 i4";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "i1 i2 i3"
+        "i4 i5 i6";
         /*☣☣☣*/
         border-radius: 2rem;
         border: none;
@@ -2516,37 +2291,7 @@ a{
                 clip-path: circle();
         background-color: rgba(255, 255, 255, 0.1);
     }
-    .i1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: i1;}
-    .p_images > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images2 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images3 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images4 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images5 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images_gonzalitas > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    #p_images_moskalti_1 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    #p_images_moskalti_2 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .i2{-ms-grid-row: 1;-ms-grid-column: 3;grid-area: i2;}
-    .p_images > .i2{
-        -ms-grid-row: 1;
-        -ms-grid-column: 3;}
-    .i3{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: i3;}
-    .i4{-ms-grid-row: 3;-ms-grid-column: 3;grid-area: i4;}
+    
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
     #moskalti{
         -ms-grid-row: 55;
@@ -3431,52 +3176,32 @@ a{
         "gonzalitas_logo"
         "gonzalitas_servicio"
         "gonzalitas1"
+        "gonzalitas6"
         "gonzalitas3"
         "gonzalitas4"
         "gonzalitas2"
-        "p_images_gonzalitas";
+        "p_images_gonzalitas"
+        "gonzalitasx";
     }
     .p_images_gonzalitas{
-        -ms-grid-row: 9;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 3;
         grid-area: p_images_gonzalitas;
         background-color: rgba(255, 255, 255, 0.1);
-        display: -ms-grid;
         display: grid;
         grid-gap: 0rem;
-        -ms-grid-columns: 1fr 0rem 1fr;
         grid-template-columns: 1fr 1fr;
-        -ms-grid-rows: 1fr 0rem 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
                     grid-template-areas:
         "i1 i2"
-        "i3 i4";
+        "i3 i4"
+        "i5 i6";
         /*☣☣☣*/
         border-radius: 2rem;
         border: none;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
-    @media only screen and (max-width: 1000px){
-    .p_images_gonzalitas{
-            -ms-grid-row: 9;
-            -ms-grid-column: 1;
-            -ms-grid-column-span: 3;
-    }
-    .p_images_gonzalitas{
-            -ms-grid-row: 9;
-            -ms-grid-column: 1;
-            -ms-grid-column-span: 3;
-    }
-    }
-    @media only screen and (max-width: 550px){
-    .p_images_gonzalitas{
-            -ms-grid-row: 13;
-            -ms-grid-column: 1;
-            -ms-grid-column-span: 1;
-    }
-    }
+    
+   
     .image_gonzalitas{
         width: 90%;
         display: block;
@@ -3491,37 +3216,7 @@ a{
                 clip-path: circle();
         background-color: rgba(255, 255, 255, 0.1);
     }
-    .i1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: i1;}
-    .p_images > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images2 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images3 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images4 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images5 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .p_images_gonzalitas > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    #p_images_moskalti_1 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    #p_images_moskalti_2 > .i1{
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;}
-    .i2{-ms-grid-row: 1;-ms-grid-column: 3;grid-area: i2;}
-    .p_images > .i2{
-        -ms-grid-row: 1;
-        -ms-grid-column: 3;}
-    .i3{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: i3;}
-    .i4{-ms-grid-row: 3;-ms-grid-column: 3;grid-area: i4;}
+    
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
     #moskalti{
         -ms-grid-row: 55;
