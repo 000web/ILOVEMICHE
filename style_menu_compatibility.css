@@ -473,7 +473,7 @@ html, body, #menu{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-/**
+
 #chrome_container p{
     color: #424242;
     font-size: 0.8rem;
@@ -488,7 +488,9 @@ html, body, #menu{
 #chrome_container img{
     width: 110px;
 }
-**/
+
+
+/**
 .menu-image {
     width: 110px;
     cursor: pointer;
@@ -496,6 +498,7 @@ html, body, #menu{
     margin: auto;
     filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
   }
+**/
 
 
 /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
