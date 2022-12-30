@@ -2041,11 +2041,11 @@ a{
     font-size: 0.8rem;
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(136, 136, 136);
+    color: rgb(256, 256, 256);
     text-decoration: none;
     border-radius: 0.5rem;
-    border-top: 2px solid rgb(136, 136, 136);
-    border-bottom: 2px solid rgb(136, 136, 136);
+    border-top: 2px solid rgb(256, 256, 256);
+    border-bottom: 2px solid rgb(256, 256, 256);
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     padding-left: 1rem;
