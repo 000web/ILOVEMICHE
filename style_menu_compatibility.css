@@ -139,6 +139,23 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #navidad2022{
     background-image: url("images/navidad22f.jpeg");
     background-position: center center;
@@ -456,6 +473,7 @@ html, body, #menu{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+/**
 #chrome_container p{
     color: #424242;
     font-size: 0.8rem;
@@ -470,6 +488,15 @@ html, body, #menu{
 #chrome_container img{
     width: 110px;
 }
+**/
+.menu-image {
+    width: 110px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+  }
+
+
 /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
 #index{
     background-color: rgba(0, 0, 0, 0.1);
