@@ -66,7 +66,7 @@ html, body, #menu{
                 grid-template-areas:
     "header"
     /*"temporada2"*/ /*HALLOWEEN*/
-    "navidad2022"
+    /*"navidad2022"*/
     "p1"  /*CERVEZA*/                                    /*☢☢☢*/
     "p2"  /*MOJITOS*/
     "p3"  /*PIÑA COLADA*/
@@ -101,7 +101,7 @@ html, body, #menu{
     width: 100%; /* It is displayed over the whole width, always that html, body and this section have 0 margin */
 }
 
-#navidad2022{grid-area: navidad2022;}
+/*#navidad2022{grid-area: navidad2022;}*/
 #temporada2{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada2;}
 #temporada{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada;}
 
@@ -155,7 +155,7 @@ html, body, #menu{
 
 
 
-
+/*
 #navidad2022{
     background-image: url("images/navidad22f.jpeg");
     background-position: center center;
@@ -168,6 +168,7 @@ html, body, #menu{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+*/
 
 #n2{
     grid-area: n2;
@@ -2068,6 +2069,7 @@ a{
         grid-gap: 3rem;
     }
 
+    /*
     #navidad2022{
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -2075,6 +2077,7 @@ a{
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+    */
     .n3i{
         width: 70%;
     }
@@ -2917,11 +2920,13 @@ a{
     }
 
 
+    /*
     #navidad2022{
         grid-template-columns: 1.5fr 1fr;
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+    */
     #n2{
         grid-area: n2;
         display: flex;
