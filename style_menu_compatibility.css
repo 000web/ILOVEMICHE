@@ -3051,6 +3051,22 @@ a{
     }
 
 
+    #bugambilia2022{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "bg22tx" 
+        "bg22img";
+    }
+    #bg22img{
+        padding-top: 2rem;
+    }
+    #bg22temporada{
+        padding-right: 2rem;
+    }
+    .bg22price{
+        padding-left: 3rem;
+    }
+
     /*
     #navidad2022{
         grid-template-columns: 1.5fr 1fr;
