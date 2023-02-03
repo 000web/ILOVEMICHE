@@ -12,6 +12,14 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
@@ -62,11 +70,12 @@ html, body, #menu{
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/ /* Better not to specify height of each section, otherwise content is overlapped */
-            -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto 1rem auto;
+                    grid-template-areas:
     "header"
     /*"temporada2"*/ /*HALLOWEEN*/
     /*"navidad2022"*/
+    "bugambilia2022"
     "p1"  /*CERVEZA*/                                    /*☢☢☢*/
     "p2"  /*MOJITOS*/
     "p3"  /*PIÑA COLADA*/
@@ -102,6 +111,7 @@ html, body, #menu{
 }
 
 /*#navidad2022{grid-area: navidad2022;}*/
+#bugambilia2022{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: bugambilia2022;}
 #temporada2{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada2;}
 #temporada{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: temporada;}
 
@@ -153,7 +163,118 @@ html, body, #menu{
 
 
 
-
+#bugambilia2022{
+    background-image: url("images/bugambilia_back.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+    "bg22tx bg22img";
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: 100%;
+    align-items: center;
+}
+#bg22tx{
+    grid-area: bg22tx;
+}
+#bg22img{
+    grid-area: bg22img;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+#bg22image{
+    display: block;
+    width: 90%;
+    margin: auto auto;
+    text-align: center;
+    max-width: 300px;
+}
+.ctx{
+    display: block;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+}
+/*
+.rtx{
+    display: block;
+    margin-left: 50%;
+    width: 50%;
+    text-align: left;
+}
+*/
+.rtx2{
+    display: block;
+    margin-left: 50%;
+    width: 50%;
+    text-align: left;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+#bg22title{
+    color: #fe99d3;
+    font-weight: 400;
+    font-size: 3rem;
+    text-shadow: 0 0 5px #e60173, 0 0 10px #ff0080, 0 0 15px #ff0080, 0 0 20px #ff0080, 0 0 25px #ff0080, 0 0 30px #ff0080, 0 0 35px #ff0080;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+#bg22temporada{
+    color: white;
+    font-family: 'Inspiration', cursive;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    z-index: 10;
+    padding-top: 0rem;
+    margin-top: -1.2rem;
+    width: 100%;
+    text-align: right;
+}
+#bg22description{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#bg22extra{
+    color: #fa7dc6;
+    text-shadow: 0 0 5px #e60173, 0 0 10px #ff0080, 0 0 10px #ff0080, 0 0 10px #ff0080, 0 0 10px #ff0080, 0 0 10px #ff0080, 0 0 10px #ff0080;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.bg22price{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
 
 /*
 #navidad2022{
@@ -169,7 +290,7 @@ html, body, #menu{
     padding-bottom: 3rem;
 }
 */
-
+/*
 #n2{
     grid-area: n2;
     display: flex;
@@ -185,19 +306,21 @@ html, body, #menu{
     justify-content: left;
     text-align: center;
 }
-
+*/
 
 .n2i{
     display: block;
     width: auto;
-    filter: drop-shadow(50px 50px 100px black);
+    -webkit-filter: drop-shadow(50px 50px 100px black);
+            filter: drop-shadow(50px 50px 100px black);
 }
 
 
 .n3i{
     display: block;
     width: 50%;
-    filter: drop-shadow(0px 0px 5px black);
+    -webkit-filter: drop-shadow(0px 0px 5px black);
+            filter: drop-shadow(0px 0px 5px black);
 }
 
 
@@ -214,7 +337,7 @@ html, body, #menu{
     padding-top: 3rem;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-        grid-template-areas:
+            grid-template-areas:
     "hwt hwt"
     "tp1 tp2";
     padding-bottom: 3rem;
@@ -297,7 +420,7 @@ html, body, #menu{
     display: grid;
     -ms-grid-columns: 1fr 1fr 2fr;
     grid-template-columns: 1fr 1fr 2fr;
-            grid-template-areas:
+                grid-template-areas:
     "tmp2 tmp1 tmp3";
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -525,7 +648,7 @@ html, body, #menu{
     display: -ms-grid;
     display: grid;
     grid-gap: 5rem;
-                grid-template-areas:
+                    grid-template-areas:
     "indexs1 indexs2";
 }
 #indexs1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: indexs1;}
@@ -634,7 +757,7 @@ html, body, #menu{
     -ms-grid-columns: 8fr 0.5rem 7fr;
     grid-template-columns: 8fr 7fr;
     /*grid-template-rows: 1fr;*/ /* Not required */
-                grid-template-areas:
+                    grid-template-areas:
     "p_data p_images";
     /*☣☣☣*/
     font-family: 'Poppins', sans-serif;
@@ -663,8 +786,8 @@ html, body, #menu{
     grid-gap: 0.5rem;
     -ms-grid-columns: 8fr 0.5rem 7fr;
     grid-template-columns: 8fr 7fr;
-            -ms-grid-rows: auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto;
+                    grid-template-areas:
     "p_header p_header"
     "p_data p_images";
     /*☣☣☣*/
@@ -683,8 +806,8 @@ html, body, #menu{
     grid-gap: 0.5rem;
     -ms-grid-columns: 15fr;
     grid-template-columns: 15fr;
-            -ms-grid-rows: auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto;
+                    grid-template-areas:
     "p_header"
     "topping_section";
     /*☣☣☣*/
@@ -701,7 +824,7 @@ html, body, #menu{
     grid-gap: 0.5rem;
     -ms-grid-columns: 3fr 0.5rem 7fr;
     grid-template-columns: 3fr 7fr;
-                grid-template-areas:
+                    grid-template-areas:
     "p_images p_data";
     /*☣☣☣*/
     font-family: 'Poppins', sans-serif;
@@ -842,7 +965,7 @@ html, body, #menu{
     grid-gap: 2rem;
     -ms-grid-columns: 8fr 2rem 7fr;
     grid-template-columns: 8fr 7fr;
-                grid-template-areas:
+                    grid-template-areas:
     "p_data_blue_love p_images_blue_love";
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -874,7 +997,7 @@ html, body, #menu{
     grid-gap: 0rem;
     -ms-grid-columns: 1fr 0rem 1fr;
     grid-template-columns: 1fr 1fr;
-                grid-template-areas:
+                    grid-template-areas:
     "i1 i2";
     background-color: none;
     border-radius: 2rem;
@@ -914,7 +1037,7 @@ html, body, #menu{
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 0rem 1fr;
     grid-template-rows: 1fr 1fr;
-                grid-template-areas:
+                    grid-template-areas:
     "i1 i2"
     "i3 i4";
     /*☣☣☣*/
@@ -945,7 +1068,7 @@ html, body, #menu{
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
-                grid-template-areas:
+                    grid-template-areas:
     "i1";
     /*☣☣☣*/
     /*background-color: #e5e5e5;*/
@@ -989,8 +1112,8 @@ html, body, #menu{
     -ms-grid-columns: 1fr 0rem 1fr;
     grid-template-columns: 1fr 1fr;
     /*grid-template-rows: 1fr 1fr;*/
-            -ms-grid-rows: auto 0rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0rem auto;
+                    grid-template-areas:
     "i1 i2"
     "i3 i3";
     /*☣☣☣*/
@@ -1032,7 +1155,7 @@ html, body, #menu{
     -ms-grid-columns: 1fr 0rem 1fr;
     grid-template-columns: 1fr 1fr;
     /*grid-template-rows: 1fr 1fr;*/
-                grid-template-areas:
+                    grid-template-areas:
     "i1 i2";
     /*☣☣☣*/
     background-color: #e5e5e5;
@@ -1062,7 +1185,7 @@ html, body, #menu{
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
-                grid-template-areas:
+                    grid-template-areas:
     "i1";
     /*☣☣☣*/
     background-color: #e5e5e5;
@@ -1298,8 +1421,8 @@ table, tr, td{
     grid-gap: 0.5rem;
     -ms-grid-columns: 1fr 0.5rem 1fr;
     grid-template-columns: 1fr 1fr;
-            -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                    grid-template-areas:
     "pb_header pb_header"
     "botellas1 botellas5"
     "botellas1 botellas4"
@@ -1410,8 +1533,8 @@ table, tr, td{
     grid-gap: 0.5rem;
     -ms-grid-columns: 1fr 0.5rem 1.5fr;
     grid-template-columns: 1fr 1.5fr;
-            -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                    grid-template-areas:
     "gonzalitas_logo gonzalitas_logo"
     "gonzalitas_servicio gonzalitas_servicio"
     "gonzalitas1 gonzalitas2"
@@ -1519,11 +1642,14 @@ table, tr, td{
 .p_images_gonzalitas{
     grid-area: p_images_gonzalitas;
     background-color: rgba(255, 255, 255, 0.1);
+    display: -ms-grid;
     display: grid;
     grid-gap: 0rem;
+    -ms-grid-columns: 1fr 0rem 1fr 0rem 1fr 0rem 1fr 0rem 1fr 0rem 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas:
+        grid-template-areas:
     "i1 i2 i3 i4 i5 i6";
     /*☣☣☣*/
     border-radius: 2rem;
@@ -1579,8 +1705,8 @@ table, tr, td{
     grid-gap: 0.5rem;
     -ms-grid-columns: 4fr 0.5rem 1.5fr 0.5rem 5fr;
     grid-template-columns: 4fr 1.5fr 5fr;
-            -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                    grid-template-areas:
     "moskalti_logo moskalti_logo moskalti_logo"
     "moskalti_social_media moskalti_social_media moskalti_social_media"
     "p_data_moskalti_1 p_images_moskalti_1 p_images_moskalti_2"
@@ -1654,7 +1780,7 @@ table, tr, td{
     display: -ms-grid;
     display: grid;
     grid-gap: 0rem;
-                grid-template-areas:
+                    grid-template-areas:
     "i1"
     "i2"
     "i3"
@@ -1696,7 +1822,7 @@ table, tr, td{
     display: -ms-grid;
     display: grid;
     grid-gap: 0rem;
-                grid-template-areas:
+                    grid-template-areas:
     "i1";
     /*☣☣☣*/
     border-radius: 2rem;
@@ -1769,7 +1895,7 @@ table, tr, td{
     display: -ms-grid;
     display: grid;
     grid-gap: 0.5rem;
-                grid-template-areas:
+                    grid-template-areas:
     "m1 m2 m3";
 }
 #m1{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: m1;}
@@ -1856,7 +1982,7 @@ table, tr, td{
     display: -ms-grid;
     display: grid;
     grid-gap: 2rem;
-                grid-template-areas:
+                    grid-template-areas:
     "s1 s2 s3";
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2086,7 +2212,7 @@ a{
     #temporada2{
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-            grid-template-areas:
+                grid-template-areas:
         "hwt"
         "tp1"
         "tp2";
@@ -2102,8 +2228,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 0.5fr 0.5rem 1fr;
         grid-template-columns: 0.5fr 1fr;
-            -ms-grid-rows: auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto;
+                    grid-template-areas:
         "tmp2 tmp1"
         "tmp3 tmp3";
     }
@@ -2119,7 +2245,7 @@ a{
         grid-template-columns: 9fr 3fr; /*12 - 3*/
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "p_data p_images";
         /*☣☣☣*/
         font-family: 'Poppins', sans-serif;
@@ -2132,7 +2258,7 @@ a{
         grid-template-columns: 9fr 3fr;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "p_data_blue_love p_images_blue_love";
         /*☣☣☣*/
         font-family: 'Poppins', sans-serif;
@@ -2150,7 +2276,7 @@ a{
         grid-template-columns: 3fr;
         -ms-grid-rows: 1fr 0rem 1fr 0rem 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1"
         "i2"
         "i3";
@@ -2176,7 +2302,7 @@ a{
         grid-template-columns: 3fr;
         -ms-grid-rows: 1fr 0.5rem 1fr;
         grid-template-rows: 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1"
         "i2";
         /*☣☣☣*/
@@ -2212,7 +2338,7 @@ a{
         grid-template-columns: 3fr;
         -ms-grid-rows: 1fr 0.5rem 1fr 0.5rem 1fr 0.5rem 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1"
         "i2"
         "i3"
@@ -2235,7 +2361,7 @@ a{
         grid-template-columns: 3fr;
         -ms-grid-rows: 1fr 0.5rem 1fr;
         grid-template-rows: 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1"
         "i2";
         /*☣☣☣*/
@@ -2248,8 +2374,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 9fr 0.5rem 3fr;
         grid-template-columns: 9fr 3fr;
-                -ms-grid-rows: auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto;
+                        grid-template-areas:
         "p_header p_header"
         "p_data p_images";
         /*☣☣☣*/
@@ -2271,7 +2397,7 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 5fr 0.5rem 12fr;
         grid-template-columns: 5fr 12fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "p_images p_data";
         /*☣☣☣*/
         font-family: 'Poppins', sans-serif;
@@ -2286,8 +2412,10 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
+        -ms-grid-columns: 2fr 0.5rem 1fr;
         grid-template-columns: 2fr 1fr;
-        grid-template-areas:
+        -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+            grid-template-areas:
         "gonzalitas_logo gonzalitas_logo"
         "gonzalitas_servicio gonzalitas_servicio"
         "gonzalitas1 gonzalitas3"
@@ -2298,11 +2426,14 @@ a{
     .p_images_gonzalitas{
         grid-area: p_images_gonzalitas;
         background-color: rgba(255, 255, 255, 0.1);
+        display: -ms-grid;
         display: grid;
         grid-gap: 0rem;
+        -ms-grid-columns: 1fr 0rem 1fr 0rem 1fr;
         grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: 1fr 0rem 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas:
+            grid-template-areas:
         "i1 i2 i3"
         "i4 i5 i6";
         /*☣☣☣*/
@@ -2344,8 +2475,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 9fr 0.5rem 3fr;
         grid-template-columns: 9fr 3fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                        grid-template-areas:
         "moskalti_logo moskalti_logo"
         "moskalti_social_media moskalti_social_media"
         "p_data_moskalti_1 p_images_moskalti_1"
@@ -2366,7 +2497,7 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
-                    grid-template-areas:
+                        grid-template-areas:
         "m1 m2"
         "m3 m3";
     }
@@ -2385,8 +2516,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                        grid-template-areas:
         "pb_header"
         "botellas1"
         "botellas2"
@@ -2399,7 +2530,7 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
-                    grid-template-areas:
+                        grid-template-areas:
         "indexs1 indexs2";
     }
     .index_button{
@@ -2929,17 +3060,29 @@ a{
     */
     #n2{
         grid-area: n2;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         text-align: center;
     }
     
     #n3{
         grid-area: n3;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         text-align: center;
     }
     .n2i{
@@ -2953,7 +3096,7 @@ a{
     #temporada2{
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-            grid-template-areas:
+                grid-template-areas:
         "hwt"
         "tp1"
         "tp2";
@@ -2969,8 +3112,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 0.5fr 0.5rem 1fr;
         grid-template-columns: 0.5fr 1fr;
-            -ms-grid-rows: auto 0.5rem auto;
-                grid-template-areas:
+                -ms-grid-rows: auto 0.5rem auto;
+                    grid-template-areas:
         "tmp2 tmp1"
         "tmp3 tmp3";
     }
@@ -2981,8 +3124,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 15fr;
         grid-template-columns: 15fr;
-                -ms-grid-rows: auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto;
+                        grid-template-areas:
         "p_data"
         "p_images";
         /*☣☣☣*/
@@ -2994,8 +3137,8 @@ a{
         grid-gap: 2rem;
         -ms-grid-columns: 15fr;
         grid-template-columns: 15fr;
-                -ms-grid-rows: auto 2rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 2rem auto;
+                        grid-template-areas:
         "p_data_blue_love"
         "p_images_blue_love";
         /*☣☣☣*/
@@ -3016,7 +3159,7 @@ a{
         grid-template-columns: 3fr 3fr;
         -ms-grid-rows: 1fr 0rem 1fr;
         grid-template-rows: 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1 i2"
         "i3 i3";
         /*☣☣☣*/
@@ -3053,7 +3196,7 @@ a{
         grid-template-columns: 3fr 3fr;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1 i2";
         /*☣☣☣*/
         font-family: 'Poppins', sans-serif;
@@ -3090,7 +3233,7 @@ a{
         grid-template-columns: 3fr 3fr;
         -ms-grid-rows: 1fr 0rem 1fr;
         grid-template-rows: 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1 i2"
         "i3 i4";
         /*☣☣☣*/
@@ -3113,7 +3256,7 @@ a{
         grid-template-columns: 3fr 3fr;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1 i2";
         /*☣☣☣*/
         font-family: 'Poppins', sans-serif;
@@ -3157,8 +3300,8 @@ a{
         display: grid;
         -ms-grid-columns: 15fr;
         grid-template-columns: 15fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto 0.5rem auto;
+                        grid-template-areas:
         "p_header"
         "p_data"
         "p_images";
@@ -3182,8 +3325,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 15fr;
         grid-template-columns: 15fr;
-                -ms-grid-rows: auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto;
+                        grid-template-areas:
         "p_images"
         "p_data";
         /*☣☣☣*/
@@ -3207,8 +3350,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                        grid-template-areas:
         "gonzalitas_logo"
         "gonzalitas_servicio"
         "gonzalitas1"
@@ -3222,11 +3365,14 @@ a{
     .p_images_gonzalitas{
         grid-area: p_images_gonzalitas;
         background-color: rgba(255, 255, 255, 0.1);
+        display: -ms-grid;
         display: grid;
         grid-gap: 0rem;
+        -ms-grid-columns: 1fr 0rem 1fr;
         grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr 0rem 1fr 0rem 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1 i2"
         "i3 i4"
         "i5 i6";
@@ -3271,8 +3417,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                        grid-template-areas:
         "moskalti_logo"
         "moskalti_social_media"
         "p_data_moskalti_1"
@@ -3295,7 +3441,7 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
-                    grid-template-areas:
+                        grid-template-areas:
         "m1"
         "m2"
         "m3";
@@ -3315,7 +3461,7 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0rem;
-                    grid-template-areas:
+                        grid-template-areas:
         "i1"
         "i2"
         "i3"
@@ -3367,8 +3513,8 @@ a{
         grid-gap: 0.5rem;
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-                -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
-                    grid-template-areas:
+                    -ms-grid-rows: auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto 0.5rem auto;
+                        grid-template-areas:
         "pb_header"
         "botellas1"
         "botellas2"
@@ -3381,7 +3527,7 @@ a{
         display: -ms-grid;
         display: grid;
         grid-gap: 0rem;
-                    grid-template-areas:
+                        grid-template-areas:
         "indexs1"
         "indexs2";
     }
