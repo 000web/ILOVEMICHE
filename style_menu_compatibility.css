@@ -109,6 +109,7 @@ html, body, #menu{
     "p16" /*TOPPING (black background)*/                 /*☉☉☉*/
     "p14" /*CUBETAS*/                                                  /*☣☣☣*/
     "p14_2" /*OTRAS CUBETAS*/
+    "tablas" /*Tablas de Shots*/
     "pb"  /*BOTELLAS*/
     "p15" /*TOPPING APARTE*/                                           /*☣☣☣*/
     "mariscos" /*MARISCOS SINALOENSES (title)*/                        /*☗☗☗*/
@@ -147,8 +148,9 @@ html, body, #menu{
 #pw{-ms-grid-row: 25;-ms-grid-column: 1;grid-area: pw;}
 #p12{-ms-grid-row: 27;-ms-grid-column: 1;grid-area: p12;}
 #p13{-ms-grid-row: 29;-ms-grid-column: 1;grid-area: p13;}                                     /*☢☢☢*/
-#p14{-ms-grid-row: 33;-ms-grid-column: 1;grid-area: p14}                                                  /*☣☣☣*/
-#p14_2{-ms-grid-row: 35;-ms-grid-column: 1;grid-area: p14_2}                                              /*☣☣☣*/
+#p14{-ms-grid-row: 33;-ms-grid-column: 1;grid-area: p14;}                                                  /*☣☣☣*/
+#p14_2{-ms-grid-row: 35;-ms-grid-column: 1;grid-area: p14_2;}                                              /*☣☣☣*/
+#tablas{grid-area: tablas;}
 #p15{-ms-grid-row: 39;-ms-grid-column: 1;grid-area: p15;}                                                 /*☣☣☣*/
 #p16{-ms-grid-row: 31;-ms-grid-column: 1;grid-area: p16;}                                     /*☉☉☉*/
 #mariscos{-ms-grid-row: 41;-ms-grid-column: 1;grid-area: mariscos;}                                       /*☗☗☗*/
@@ -927,7 +929,7 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* PRODUCTS PARTICULAR STRUCTURE */
-#p1 h1, #p2 h1, #p3 h1, #p4 h1, #p5 h1, #p6 h1, #p7 h1, #p8 h1, #p9 h1, #p11 h1, #pw h1, #p12 h1, #p13 h1{
+#p1 h1, #p2 h1, #p3 h1, #p4 h1, #p5 h1, #p6 h1, #p7 h1, #p8 h1, #p9 h1, #p11 h1, #pw h1, #p12 h1, #p13 h1, #tablas h1{
     /*p1 to p13 TITLES (Except p10)*/
     background-color: #808080;
     border-radius: 1rem;
@@ -2358,7 +2360,7 @@ a{
         width: 8rem;
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
-    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13{
+    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13, #tablas{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
@@ -3296,7 +3298,7 @@ a{
         "tmp3 tmp3";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
-    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13{
+    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13, #tablas{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
