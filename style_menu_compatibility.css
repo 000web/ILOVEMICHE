@@ -99,6 +99,7 @@ html, body, #menu{
     "p7"  /*MARGARITAS FRAPPÉ*/
     "p8"  /*CUBA*/
     "p9"  /*PALOMA*/
+    "pxx" /*BICOLOR*/
     "p10" /*BLUE LOVE*/
     "cielorosa"
     "temporada" /*BEBIDA DE TEMPORADA - CAMBIA CONSTANTEMENTE*/
@@ -141,6 +142,7 @@ html, body, #menu{
 #p7{-ms-grid-row: 15;-ms-grid-column: 1;grid-area: p7;}
 #p8{-ms-grid-row: 17;-ms-grid-column: 1;grid-area: p8;}
 #p9{-ms-grid-row: 19;-ms-grid-column: 1;grid-area: p9;}
+#pxx{grid-area: pxx;}
 #p1{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: p1;}
 #p10{-ms-grid-row: 21;-ms-grid-column: 1;grid-area: p10;}
 #cielorosa{grid-area: cielorosa;}
@@ -837,7 +839,7 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* PRODUCTS GENERAL STRUCTURE */
-#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13{
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #pxx, #p10, #p11, #pw, #p12, #p13{
     /*PRODUCT GENERAL CONTAINERS*/
     display: -ms-grid;
     display: grid;
@@ -929,7 +931,7 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* PRODUCTS PARTICULAR STRUCTURE */
-#p1 h1, #p2 h1, #p3 h1, #p4 h1, #p5 h1, #p6 h1, #p7 h1, #p8 h1, #p9 h1, #p11 h1, #pw h1, #p12 h1, #p13 h1, #tablas h1{
+#p1 h1, #p2 h1, #p3 h1, #p4 h1, #p5 h1, #p6 h1, #p7 h1, #p8 h1, #p9 h1, #pxx h1, #p11 h1, #pw h1, #p12 h1, #p13 h1, #tablas h1{
     /*p1 to p13 TITLES (Except p10)*/
     background-color: #808080;
     border-radius: 1rem;
@@ -2360,7 +2362,7 @@ a{
         width: 8rem;
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
-    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13, #tablas{
+    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #pxx, #p10, #p11, #pw, #p12, #p13, #tablas{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
@@ -3298,7 +3300,7 @@ a{
         "tmp3 tmp3";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
-    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #pw, #p12, #p13, #tablas{
+    #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #pxx, #p10, #p11, #pw, #p12, #p13, #tablas{
         display: -ms-grid;
         display: grid;
         grid-gap: 0.5rem;
