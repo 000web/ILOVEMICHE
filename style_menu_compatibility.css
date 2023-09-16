@@ -90,6 +90,7 @@ html, body, #menu{
     /*"temporada2"*/ /*HALLOWEEN*/
     /*"navidad2022"*/
     /*"bugambilia2022"*/
+    "diablito"
     "p1"  /*CERVEZA*/                                    /*☢☢☢*/
     "p2"  /*MOJITOS*/
     "p3"  /*PIÑA COLADA*/
@@ -146,6 +147,7 @@ html, body, #menu{
 #p1{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: p1;}
 #p10{-ms-grid-row: 21;-ms-grid-column: 1;grid-area: p10;}
 #cielorosa{grid-area: cielorosa;}
+#diablito{grid-area: diablito;}
 #p11{-ms-grid-row: 23;-ms-grid-column: 1;grid-area: p11;}
 #pw{-ms-grid-row: 25;-ms-grid-column: 1;grid-area: pw;}
 #p12{-ms-grid-row: 27;-ms-grid-column: 1;grid-area: p12;}
@@ -168,12 +170,33 @@ html, body, #menu{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 
+/*
+#diablito{
+    background-image: url("images/diablito_bc.jpeg");
+    background-size: cover;
+    color: #ffffff;
+    padding-bottom: 3rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "diablito_title diablito_title"
+    "diablito_imgs diablito_text";
+}
+*/
 
-
-
-
-
-
+#diablito img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0rem;
+}
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
 
 
 #cielorosa{
