@@ -1520,8 +1520,9 @@ table, tr, td{
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* ⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙⚙ */
 /* BOTELLAS */
+/*
 #pb{
-    /*BOTELLAS Whole Area*/
+    /*BOTELLAS Whole Area
     background-color: black;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1541,6 +1542,8 @@ table, tr, td{
     "botellas1 botellas4"
     "botellas3 botellas2";
 }
+
+
 .p_data_botellas{
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
@@ -1552,42 +1555,44 @@ table, tr, td{
     height: max-content;
     padding: 0.4rem;
 }
+
 #pb_header{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
-    /*BOTELLAS TITLE AREA*/
+    /*BOTELLAS TITLE AREA
     grid-area: pb_header;
 }
+
 #botellas1{
     -ms-grid-row: 3;
     -ms-grid-row-span: 3;
     -ms-grid-column: 1;
-    /*Alitas*/
+    /*Alitas
     grid-area: botellas1;
 }
 #botellas2{
     -ms-grid-row: 7;
     -ms-grid-column: 3;
-    /*Hamburguesas*/
+    /*Hamburguesas
     grid-area: botellas2;
 }
 #botellas3{
     -ms-grid-row: 7;
     -ms-grid-column: 1;
-    /*Salsas*/
+    /*Salsas
     grid-area: botellas3;
 }
 #botellas4{
     -ms-grid-row: 5;
     -ms-grid-column: 3;
-    /*Ron*/
+    /*Ron
     grid-area: botellas4;
 }
 #botellas5{
     -ms-grid-row: 3;
     -ms-grid-column: 3;
-    /*Brandy*/
+    /*Brandy
     grid-area: botellas5;
 }
 .botellas_h1{
@@ -1597,12 +1602,12 @@ table, tr, td{
     width: -moz-fit-content;
     width: fit-content;
     padding: 0.3rem 1.2rem 0.3rem 1.2rem;
-    /*☣☣☣*/
+    /*☣☣☣
     color: white;
     font-weight: 600;
     font-size: 2rem;
     text-align: center;
-    /*☣☣☣*/
+    /*☣☣☣
     margin-left: auto;
     margin-right: auto;
 }
@@ -2650,8 +2655,9 @@ a{
         "m3 m3";
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+    /*
     #pb{
-        /*BOTELLAS Whole Area*/
+        BOTELLAS Whole Area
         background-color: black;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
@@ -2673,6 +2679,7 @@ a{
         "botellas4"
         "botellas5";
     }
+    */
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
     #index{
         display: -ms-grid;
@@ -2853,11 +2860,13 @@ a{
         -ms-grid-row: 1;
         -ms-grid-column: 7;
     }
+    /*
     #pb_header{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+    
     #botellas1{
         -ms-grid-row: 3;
         -ms-grid-row-span: 1;
@@ -2879,6 +2888,7 @@ a{
         -ms-grid-row: 11;
         -ms-grid-column: 1;
     }
+    */
     #gonzalitas1{
         -ms-grid-row: 5;
         -ms-grid-column: 1;
@@ -3704,8 +3714,9 @@ a{
         background-color: rgba(255, 255, 255, 0.1);
     }
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
+    /*
     #pb{
-        /*BOTELLAS Whole Area*/
+        /*BOTELLAS Whole Area
         background-color: black;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
@@ -3727,6 +3738,7 @@ a{
         "botellas4"
         "botellas5";
     }
+    */
     /*☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣*/
     #index{
         display: -ms-grid;
@@ -3922,11 +3934,13 @@ a{
         -ms-grid-row: 7;
         -ms-grid-column: 1;
     }
+    /*
     #pb_header{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
         -ms-grid-column-span: 1;
     }
+    
     #botellas1{
         -ms-grid-row: 3;
         -ms-grid-row-span: 1;
@@ -3948,6 +3962,7 @@ a{
         -ms-grid-row: 11;
         -ms-grid-column: 1;
     }
+    */
     #gonzalitas1{
         -ms-grid-row: 5;
         -ms-grid-column: 1;
