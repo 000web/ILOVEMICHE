@@ -1,0 +1,762 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* IMPORTANT FOR MOBILE VISUALIZATION */
+@-o-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0
+}
+/* END IMPORTANT FOR MOBILE VISUALIZATION */
+
+
+
+/* <uniquifier>: Use a unique and descriptive class name
+   <weight>:     Use a value from 100 to 900             */
+.noto-sans-custom {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Choose a weight value from 100 to 900 */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+* {
+    /* Apply the styles to all elements */
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Choose a weight value from 100 to 900 */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 0.9rem;
+    /* Apply the black background to all elements */
+    background-color: black;
+    color: white; /* Set text color to white for better readability */
+    /* Apply 0 margin for all html elements */
+    margin: 0px;
+}
+
+
+
+body{ /* Grid Space */
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 6rem;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto;
+        grid-template-areas:
+    "header"
+    "pidelo"
+    "escarchado"
+    "chamoyadas"
+    "cerveza"
+    "bebidas"
+    "topp"
+    "cubetas"
+    "tablas"
+    "varios"
+    "mariscos"
+    "aguachiles"
+    "ceviches"
+    "mariscos-images"
+    "botanas"
+    "gonzalitas"
+    "footer";
+}
+#header{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: header;}
+#pidelo{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: pidelo;}
+#escarchado{-ms-grid-row: 5;-ms-grid-column: 1;grid-area: escarchado;}
+#chamoyadas{-ms-grid-row: 7;-ms-grid-column: 1;grid-area: chamoyadas;}
+#cerveza{-ms-grid-row: 9;-ms-grid-column: 1;grid-area: cerveza;}
+#bebidas{-ms-grid-row: 11;-ms-grid-column: 1;grid-area: bebidas;}
+#topp{-ms-grid-row: 13;-ms-grid-column: 1;grid-area: topp;}
+#cubetas{-ms-grid-row: 15;-ms-grid-column: 1;grid-area: cubetas;}
+#tablas{-ms-grid-row: 17;-ms-grid-column: 1;grid-area: tablas;}
+#varios{-ms-grid-row: 19;-ms-grid-column: 1;grid-area: varios;}
+#mariscos{-ms-grid-row: 21;-ms-grid-column: 1;grid-area: mariscos;}
+#aguachiles{-ms-grid-row: 23;-ms-grid-column: 1;grid-area: aguachiles;}
+#ceviches{-ms-grid-row: 25;-ms-grid-column: 1;grid-area: ceviches;}
+#mariscos-images{-ms-grid-row: 27;-ms-grid-column: 1;grid-area: mariscos-images;}
+#botanas{-ms-grid-row: 29;-ms-grid-column: 1;grid-area: botanas;}
+#gonzalitas{-ms-grid-row: 31;-ms-grid-column: 1;grid-area: gonzalitas;}
+#footer{-ms-grid-row: 33;-ms-grid-column: 1;grid-area: footer;}
+
+
+body div h1, body div p, body div h3, body div table{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+body div h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 800;
+    background-image: url("images/h1_back.png");
+    background-size: cover;
+    height: 3.33rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 16rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+body div h1#toppping_title_img{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    background-image: url("images/title_topping.png");
+    background-size: cover;
+    height: 10.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 16rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+body div h1#mariscos_title_img{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    background-image: url("images/mar_back.png");
+    background-size: cover;
+    height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+body div h3{
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+
+
+body div ul, body div ol{ /* Separated from previous block because it takes 100% width larger than normal */
+    margin-bottom: 1rem;
+    padding-left: 1.5rem; /* Adjust default list indentation */
+    list-style: disc;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, th {
+    /* Additional styling for table cells if needed */
+    /*border: 1px solid red;*/ /* This is optional, for cell borders */
+    padding: 0.2rem; /* This is optional, for cell padding */
+}
+.ral{
+    text-align: right;
+}
+.btop{
+    border-top: rgb(66, 66, 66) dotted 1px;
+}
+
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+.warning{
+    background-color: rgb(15, 15, 15);
+    color: rgb(190, 23, 23);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 1rem;
+    border: rgb(190, 23, 23) solid 2px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.warning >p{
+    text-align: center;
+    margin-bottom: 0rem;
+}
+.warning >*, .warning >*>*{
+    background-color: rgb(15, 15, 15);
+    color: rgb(190, 23, 23);
+}
+
+body >div{
+    padding: 1rem;
+}
+
+
+
+.main_image{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+.pidelo-container {
+    position: relative;
+    width: 100%;
+}
+.pidelo-background{
+    width: 100%;
+    height: auto;
+    display: block;
+    -webkit-transform: translate(-30%, 0%);
+        -ms-transform: translate(-30%, 0%);
+            transform: translate(-30%, 0%);
+}
+.pidelo-title {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    -webkit-transform: translate(0%, -25%);
+        -ms-transform: translate(0%, -25%);
+            transform: translate(0%, -25%);
+}
+
+  /* Style for the overlay text */
+.pidelo-overlay-text {
+    position: absolute;
+    bottom: 1rem;
+    right: 0rem;
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    -webkit-transform: translate(0%, 15%);
+        -ms-transform: translate(0%, 15%);
+            transform: translate(0%, 15%);
+}
+.pidelo-overlay-text>ul {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*backdrop-filter: blur(1px);*/
+    border-radius: 10px;
+}
+.pidelo-overlay-text>ul>li {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*backdrop-filter: blur(1px);*/
+}
+
+
+
+
+
+
+.escarchado-container {
+    position: relative;
+    width: 100%;
+}
+.escarchado-background{
+    width: 100%;
+    height: auto;
+    display: block;
+    -webkit-transform: translate(-15%, 0%);
+        -ms-transform: translate(-15%, 0%);
+            transform: translate(-15%, 0%);
+    border-bottom-right-radius: 30% 50%;
+    border-top-left-radius: 60% 50%;
+}
+.escarchado-title {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+}
+
+  /* Style for the overlay text */
+.escarchado-overlay-text {
+    position: absolute;
+    bottom: 1rem;
+    right: 0rem;
+    width: 40%;
+    height: auto;
+    background-color: transparent;
+    -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+}
+.escarchado-overlay-text>ul {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*backdrop-filter: blur(1px);*/
+    border-radius: 10px;
+}
+.escarchado-overlay-text>ul>li {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*backdrop-filter: blur(1px);*/
+}
+
+
+
+
+
+
+.topp-container {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+    "topp-title topp-title"
+    "topp-images topp-overlay-text"
+    "topp-nota topp-nota";
+}
+#topp-title{-ms-grid-row: 1;-ms-grid-column: 1;-ms-grid-column-span: 2;grid-area: topp-title;}
+#topp-images{-ms-grid-row: 2;-ms-grid-column: 1;grid-area: topp-images;}
+#topp-overlay-text{-ms-grid-row: 2;-ms-grid-column: 2;grid-area: topp-overlay-text;}
+#topp-nota{-ms-grid-row: 3;-ms-grid-column: 1;-ms-grid-column-span: 2;grid-area: topp-nota;}
+
+#topp-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+}
+.topp-background{
+    width: 100%;
+    height: auto;
+    display: block;
+    -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    border-radius: 50%;
+}
+#topp-title {
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+}
+#topp-nota{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#mariscos-images{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.mariscos-img{
+    width: 45%;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+
+
+
+#header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+#header-img{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+
+#footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.open_btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900; /* Choose a weight value from 100 to 900 */
+    font-style: normal;
+    font-size: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.open_btn:hover{
+    background-color: rgb(228, 228, 228);
+}
+.open_btn:active{
+    background-color: #ff1717;
+    color: white;
+    -webkit-transform: scale(95%);
+        -ms-transform: scale(95%);
+            transform: scale(95%);
+}
+
+.lal{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.close_btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0rem 0.7rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900; /* Choose a weight value from 100 to 900 */
+    font-style: normal;
+    font-size: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: #ff1717;
+    border: none;
+    border-radius: 30%;
+}
+.close_btn:hover{
+    background-color: rgb(116, 116, 116);
+    color: black;
+}
+.close_btn:active{
+    background-color: black;
+    color: white;
+    -webkit-transform: scale(95%);
+        -ms-transform: scale(95%);
+            transform: scale(95%);
+}
+
+
+
+.modal{
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+}
+.modal::-webkit-backdrop{
+    background-color: rgba(0, 0, 0, 0.9);
+    /*backdrop-filter: blur(20px);*/
+    /*-webkit-filter: blur(20px);*/
+    /*filter: blur(20px);*/ /* Adjust the blur value as needed */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.modal::backdrop{
+    background-color: rgba(0, 0, 0, 0.9);
+    /*backdrop-filter: blur(20px);*/
+    /*-webkit-filter: blur(20px);*/
+    /*filter: blur(20px);*/ /* Adjust the blur value as needed */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+
+
+.imgs_div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: transparent;
+}
+.imgs_div>img{
+    width: 80%; /*40%*/
+    padding: 1rem;
+    background: transparent;
+    border-radius: 40px;
+}
+
+
+
+/*BE CAREFUL NOT TO AFFECT THE FOOTER*/
+body>div>h1, body>div>button, body>div>table, body>div>div>ul, body>div>div>img, body>div>h3, body>div>p, body>div>section, body>div>div>h3, body>div>div>p, body>div>div>table, body>div>div>div>img, body>div>div>div>ul{
+    -webkit-animation: fade-in linear;
+            animation: fade-in linear;
+    animation-timeline: view(100% 0%);
+}
+@-webkit-keyframes fade-in{
+    from {scale: 0.6; opacity: 0;}
+    to {scale: 1; opacity: 1;}
+}
+@keyframes fade-in{
+    from {scale: 0.6; opacity: 0;}
+    to {scale: 1; opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Background color of the preloader */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 9999; /* Ensure preloader stays on top */
+}
+.preloader>img{
+    width: 100px;
+    margin: 2rem;
+}
+  
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey border */
+    border-top: 8px solid #ff1717; /* Blue border on top */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite; /* Animation to rotate the loader */
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+  
+/* Hides content until it's loaded */
+/*
+.content {
+    display: none;
+}
+*/
+
+
+
+#gonzalitas_logo{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    max-width: 600px;
+}
+#gonzalitas_time{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(15, 15, 15);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.gonzalitas_table>*, .gonzalitas_table>tr>td{
+    background-color: rgb(15, 15, 15);
+}
+.gonzalitas_table>caption{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.thick{
+    font-weight: 600;
+}
+.orange{
+    color: #FF4E28;
+}
+.larger_cell{
+    width: 3rem;
+}
+#imgs_gonzalitas>img{
+    border-radius: 50%;
+}
+
+
+
+
+/*
+*{
+    border: 1px solid greenyellow;
+}
+*/
