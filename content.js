@@ -24,8 +24,8 @@ const cerveza = {
         'description':'',
         'flavors':['Cubana (Limón, sal y escarcada con sal)', 'Michelada (Limón, sal y salsa de la casa)', 'Clamochela (Limón, sal, salsa de la casa y clamato 80mL)'],
         'table':[
-            {'option':'Corona / Victoria',         'price_litro':85,  'price_top':135},
-            {'option':'Con banderilla de camaron', 'price_litro':135, 'price_top':0  },
+            {'option':'Corona / Victoria',         'price_litro':90,  'price_top':145},
+            {'option':'Litro con banderilla de camaron', 'price_unique':135},
         ]},
         {'subtitle':'Cerveza de 1/2',
         'description':'',
