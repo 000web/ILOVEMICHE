@@ -39,7 +39,7 @@ const cerveza = {
         'description':'Clamato, Limón, salsas, sal y agua mineral',
         'flavors':[],
         'table':[
-            {'option':'Corona / Victoria', 'price_litro':80,  'price_top':130},
+            {'option':' ', 'price_litro':80,  'price_top':130},
         ]},
     ),
 };
