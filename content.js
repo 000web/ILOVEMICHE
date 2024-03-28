@@ -1073,6 +1073,7 @@ const salsas = {
                 {'item':'Original'},
                 {'item':'Mango Sriracha'},
                 {'item':'Picositas'},
+                {'item':'Pelon Pelo Rico'},
             ]
         },
     ],
