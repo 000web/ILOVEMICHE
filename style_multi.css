@@ -60,6 +60,7 @@ body{ /* Grid Space */
     -ms-grid-rows: auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto;
         grid-template-areas:
     "header"
+    "navidad"
     "pidelo"
     "escarchado"
     "chamoyadas"
@@ -78,6 +79,7 @@ body{ /* Grid Space */
     "footer";
 }
 #header{-ms-grid-row: 1;-ms-grid-column: 1;grid-area: header;}
+#navidad{grid-area: navidad;}
 #pidelo{-ms-grid-row: 3;-ms-grid-column: 1;grid-area: pidelo;}
 #escarchado{-ms-grid-row: 5;-ms-grid-column: 1;grid-area: escarchado;}
 #chamoyadas{-ms-grid-row: 7;-ms-grid-column: 1;grid-area: chamoyadas;}
@@ -268,6 +270,10 @@ body >div{
     position: relative;
     width: 100%;
 }
+.navidad-container {
+    position: relative;
+    width: 100%;
+}
 .pidelo-background{
     width: 100%;
     height: auto;
@@ -275,6 +281,12 @@ body >div{
     -webkit-transform: translate(-30%, 0%);
         -ms-transform: translate(-30%, 0%);
             transform: translate(-30%, 0%);
+}
+.navidad-background{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
 }
 .pidelo-title {
     position: absolute;
@@ -299,6 +311,52 @@ body >div{
     -webkit-transform: translate(0%, 15%);
         -ms-transform: translate(0%, 15%);
             transform: translate(0%, 15%);
+}
+.navidad-overlay-text{
+    position: absolute;
+    top: 70%;
+    right: 0.1rem;
+    height: 2rem;
+    width: 35%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.navidad-overlay-text-2{
+    position: absolute;
+    top: 70%;
+    left: 0.1rem;
+    height: 4rem;
+    width: auto;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.navidad-overlay-text p{
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    color: #39948d;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.navidad-overlay-text-2 p{
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: left;
+    color: #5a5a5a;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .pidelo-overlay-text>ul {
     background-color: rgba(0, 0, 0, 0.3);
@@ -474,6 +532,13 @@ body >div{
 #header-img{
     width: 95%;
     margin: 0 auto;
+}
+
+
+#navidad-img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2rem;
 }
 
 
