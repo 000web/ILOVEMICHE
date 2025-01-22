@@ -60,7 +60,7 @@ body{ /* Grid Space */
     -ms-grid-rows: auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto 6rem auto;
         grid-template-areas:
     "header"
-    "navidad"
+    /*"navidad"*/
     "pidelo"
     "escarchado"
     "chamoyadas"
